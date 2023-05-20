@@ -37,7 +37,7 @@ class PersonController extends Controller
         $person = Person::find($id);
 
         if (!$person) {
-            return response()->json(['error' => 'Person not found'], 404);
+            return response()->json(['error' => 'Person not found'], 204);
         }
 
         $person->update($request->all());
@@ -50,7 +50,7 @@ class PersonController extends Controller
         $person = Person::find($id);
 
         if (!$person) {
-            return response()->json(['error' => 'Person not found'], 404);
+            return response()->json(['error' => 'Person not found'], 204);
         }
 
         $person->delete();

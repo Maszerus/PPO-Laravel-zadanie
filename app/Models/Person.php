@@ -12,12 +12,12 @@ class Person extends Model
         'FirstName',
         'LastName',
         'PhoneNumber',
-        'Email',
+        'E-mail Adress',
         'Street',
         'Postcode',
         'City',
         'Country',
     ];
 
-    public $timestamps = false; // Jeśli tabela nie zawiera kolumn z timestampami, ustaw wartość na false
+    public $timestamps = true; // Jeśli tabela nie zawiera kolumn z timestampami, ustaw wartość na false
 }
