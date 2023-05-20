@@ -12,7 +12,7 @@ class Person extends Model
         'FirstName',
         'LastName',
         'PhoneNumber',
-        'E-mail Adress',
+        'e-mail',
         'Street',
         'Postcode',
         'City',

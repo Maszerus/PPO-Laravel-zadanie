@@ -17,7 +17,7 @@ class UserSeeder extends Seeder
                 'FirstName' => $faker->firstName,
                 'LastName' => $faker->lastName,
                 'PhoneNumber' => $faker->phoneNumber,
-                'E-mail Adress' => $faker->unique()->safeEmail,
+                'e-mail' => $faker->email,
                 'Street' => $faker->streetName,
                 'Postcode' => $faker->postcode,
                 'City' => $faker->city,

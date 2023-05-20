@@ -18,15 +18,19 @@
             + wybierz funkcję get w Postman'ie<br></p>
 
         <p>Aby wyświetlić poszczególny wpis wpisz jego numer w konsoli:<br>
-            np: /11<br>
+            np: /11 - aby wyświetlić wpis nr 11<br>
             + wybierz funkcję get w Postman'ie</p>
 
         <p>Aby edytować zawartość poszczególny wpis wpisz jego numer w konsoli:<br>
-            np: /15<br>
+            np: /15 - aby wyświetlić wpis nr 15<br>
             + wybierz funkcję put w Postman'ie</p>
 
         <p>Aby zrobić nowy wpis:<br>
             /store<br>
+            + wybierz funkcję post w Postman'ie</p>
+
+        <p>Aby usunąć wpis:<br>
+            /delete/"numer wpisu"<br>
             + wybierz funkcję post w Postman'ie</p>
     </div>
 </body>
