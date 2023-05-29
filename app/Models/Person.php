@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Person extends Model
 {
-    protected $table = 'people'; // Nazwa istniejącej tabeli w bazie danych
+    protected $table = 'people';
 
     protected $fillable = [
         'FirstName',
@@ -19,5 +19,5 @@ class Person extends Model
         'Country',
     ];
 
-    public $timestamps = true; // Jeśli tabela nie zawiera kolumn z timestampami, ustaw wartość na false
+    public $timestamps = true;
 }
