@@ -14,23 +14,23 @@
         <h3>Aby obsługiwać wpisz w polu adresu localhost:8000 w programie Postman plus komenda:</h3>
 
         <p><br>Aby wyświetlić wszystkie wpisy wpisz polecenie:<br>
-            /all<br>
+            '127.0.0.1:8000/api/rozmanowski/53873/people/all'<br>
             + wybierz funkcję get w Postman'ie<br></p>
 
         <p>Aby wyświetlić poszczególny wpis wpisz jego numer w konsoli:<br>
-            np: /11 - aby wyświetlić wpis nr 11<br>
+            '127.0.0.1:8000/api/rozmanowski/53873/people/{numer wpisu}'<br>
             + wybierz funkcję get w Postman'ie</p>
 
         <p>Aby edytować zawartość poszczególny wpis wpisz jego numer w konsoli:<br>
-            np: /15 - aby wyświetlić wpis nr 15<br>
+            '127.0.0.1:8000/api/rozmanowski/53873/people/{numer wpisu}' - aby wyświetlić wpis nr 15<br>
             + wybierz funkcję put w Postman'ie</p>
 
         <p>Aby zrobić nowy wpis:<br>
-            /store<br>
+            '127.0.0.1:8000/api/rozmanowski/53873/people/store'<br>
             + wybierz funkcję post w Postman'ie</p>
 
         <p>Aby usunąć wpis:<br>
-            /delete/"numer wpisu"<br>
+            '127.0.0.1:8000/api/rozmanowski/53873/people/destroy/{numer wpisu}'<br>
             + wybierz funkcję post w Postman'ie</p>
     </div>
 </body>

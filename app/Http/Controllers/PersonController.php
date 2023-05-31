@@ -19,7 +19,7 @@ class PersonController extends Controller
         $person = Person::find($id);
 
         if (!$person) {
-            return response()->json(['error' => 'Person not found'], 404);
+            return response()->json(['error' => 'Person not found'], 204);
         }
 
         return response()->json($person);
